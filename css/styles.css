@@ -1,0 +1,144 @@
+/* Colors To be used:
+#ecf4f3
+#d1eecc
+#76dbd1
+#57a99a
+#AFCFBC
+#032230
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Parisienne', cursive;
+    padding: 4px;
+}
+
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 4px;
+}
+
+p {
+  margin:0;
+  padding: 4px;
+}
+
+.top-container {
+  background-color: #ecf4f3;
+  border: none;
+}
+
+.middle-container {
+    background-color: #ecf4f3;
+}
+
+.bottom-container {
+  background-color: #ecf4f3;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right:65%;
+}
+
+.top-cloud{
+  position: relative;
+  left: 20%;
+  padding-top: 70px;
+}
+
+.image-profile{
+  margin-top: 50px;
+  width: 15%;
+  background-color: #AFCFBC;
+  border-radius: 75%;
+}
+.forest{
+  padding-top: 50px;
+}
+
+hr{
+  margin: 0;
+}
+
+.contact-me {
+  background-color:#AFCFBC;
+
+}
+
+.first-skill {
+  display: inline-block;
+  position: relative;
+    left: 15%;
+    bottom: 90px;
+}
+
+.biogas {
+  position: relative;
+  right: 200px;
+}
+
+.second-skill {
+  position: relative;
+    right: 15%;
+    bottom: 90px;
+}
+
+.data-image {
+  position: relative;
+  left: 230px;
+}
+
+.third-skill {
+  display: inline-block;
+  position: relative;
+    left: 15%;
+    bottom: 90px;
+}
+
+.teaching {
+  position: relative;
+  right: 200px;
+}
+
+.fourth-skill {
+  position: relative;
+    right: 15%;
+    bottom: 90px;
+}
+
+.index {
+  position: relative;
+  left: 230px;
+}
+
+.btn {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #032230;
+}
+
+.contact-me{
+  position: relative;
+}
+
+.footer-image
+{
+width: 100%;
+}
+
+.get-on-touch{
+  position: absolute;
+  bottom: 150px;
+  left: 40%;
+}
