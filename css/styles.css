@@ -30,7 +30,7 @@ h2{
 p {
   margin:0;
   padding: 4px;
-  font-size: 105%;
+  font-size: 1.05rem;
 }
 
 .top-container {
@@ -75,10 +75,6 @@ hr{
   margin: 0;
 }
 
-.contact-me {
-  background-color:#AFCFBC;
-
-}
 
 .first-skill {
   display: inline-block;
@@ -132,17 +128,7 @@ hr{
 }
 
 .contact-me{
-  position: relative;
-}
-
-.footer-image
-{
- width: 100%;
-}
-
-.get-on-touch{
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 1% auto;
+  background-image: url("../Images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
