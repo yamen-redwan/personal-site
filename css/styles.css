@@ -6,31 +6,43 @@
 #AFCFBC
 #032230
 */
-
 body {
   margin: 0;
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
+  color: #032230;
 }
 
-h1{
+h1 {
   margin: 0;
   font-family: 'Parisienne', cursive;
-    padding: 4px;
-    font-size: 200%;
+  padding: 4px;
+  font-size: 200%;
+  color: #032230;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   margin: 0;
   padding: 4px;
   font-size: 120%;
+  color: #032230;
 }
 
 p {
-  margin:0;
+  margin: 0;
   padding: 4px;
   font-size: 1.05rem;
+  color: #032230;
+}
+
+hr {
+  display: inline-block;
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+  margin: 5px auto;
+  width: 10%;
+
 }
 
 .top-container {
@@ -39,87 +51,100 @@ p {
 }
 
 .middle-container {
-    background-color: #ecf4f3;
+  background-color: #ffffff;
 }
 
 .bottom-container {
-  background-color: #ecf4f3;
+  background-color: #ffffff;
+  padding-bottom: 100px;
 }
 
-.pro{
+.pro {
   text-decoration: underline;
 }
 
 .bottom-cloud {
   position: absolute;
-  right:65%;
+  right: 65%;
 }
 
-.top-cloud{
+.top-cloud {
   position: relative;
   left: 20%;
   padding-top: 70px;
 }
 
-.image-profile{
+.image-profile {
   margin-top: 50px;
   width: 15%;
   background-color: #AFCFBC;
   border-radius: 75%;
 }
-.forest{
+
+.forest {
   padding-top: 50px;
 }
 
-hr{
+hr {
   margin: 0;
 }
 
+.first-row {
+  margin: 100px auto 100px auto;
+}
 
-.first-skill {
-  display: inline-block;
-  position: relative;
-    left: 15%;
-    bottom: 90px;
+.first-skill
+{
+  text-align: left;
 }
 
 .biogas {
-  position: relative;
-  right: 200px;
+  background-color: #AFCFBC;
+  border-radius: 10%;
+  margin: auto 0 auto 70%;
+
 }
 
-.second-skill {
-  position: relative;
-    right: 15%;
-    bottom: 90px;
+.second-row {
+  margin: 100px auto 100px auto;
+}
+
+.second-skill{
+      text-align: right;
 }
 
 .data-image {
-  position: relative;
-  left: 230px;
+  background-color: #AFCFBC;
+  border-radius: 10%;
+  margin: auto 70% auto 0;
 }
 
-.third-skill {
-  display: inline-block;
-  position: relative;
-    left: 15%;
-    bottom: 90px;
+.third-row {
+  margin: 100px auto 100px auto;
+}
+
+.third-skill{
+  text-align: left;
 }
 
 .teaching {
-  position: relative;
-  right: 200px;
+  background-color: #AFCFBC;
+  border-radius: 10%;
+  margin: auto 0 auto 70%;
 }
 
-.fourth-skill {
-  position: relative;
-    right: 15%;
-    bottom: 90px;
+.fourth-row {
+  margin: 100px auto 0 auto;
+}
+
+.fourth-skill{
+  text-align: right;
 }
 
 .index {
-  position: relative;
-  left: 230px;
+  background-color: #AFCFBC;
+  border-radius: 10%;
+  margin: auto 70% auto 0;
 }
 
 .btn {
@@ -127,8 +152,18 @@ hr{
   color: #032230;
 }
 
-.contact-me{
+.footer-link {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #032230;
+}
+
+.contact-me {
   background-image: url("../Images/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
 }
